@@ -334,6 +334,63 @@ exports.viewOne = function(req, res) {
   });
 };
 
+exports.email = function(email, link)
+{
+  console.log("exports.email");
+  console.log("Shared "+link+" with "+email);
+  const nodemailer = require('nodemailer');
+
+  // Generate test SMTP service account from ethereal.email
+  // Only needed if you don't have a real mail account for testing
+  nodemailer.createTestAccount((err, account) => {
+      
+      // default SMTP transport (fake account)
+      /*let transporter = nodemailer.createTransport({
+          host: 'smtp.ethereal.email',
+          port: 587,
+          secure: false, // true for 465, false for other ports
+          auth: {
+              user: account.user, // generated ethereal user
+              pass: account.pass // generated ethereal password
+          }
+      });*/
+
+      var transporter = nodemailer.createTransport(
+      {
+        service: 'gmail',
+        auth: {
+          user: 'cogs120.tricia.8am.team2@gmail.com',
+          pass: 'teamnumber2'
+        }
+      });
+
+      //var host = "http://localhost:3000/";
+      var host = "https://a8-team2-abtest.herokuapp.com/" //switch when deploying
+
+      // setup email data with unicode symbols
+      let mailOptions = {
+          from: '"Our Appname" <do_not_reply@appname.com>', // sender address
+          to: email, // list of receivers
+          subject: 'Check this out! ✔', // Subject line
+          text: host+link, // plain text body
+          html: '<b><a href="'+host+link+'">View Inspiration!</a></b>' // html body
+      };
+
+      // send mail with defined transport object
+      transporter.sendMail(mailOptions, (error, info) => {
+          if (error) {
+              return console.log(error);
+          }
+          console.log('Message sent: %s', info.messageId);
+          // Preview only available when sending through an Ethereal account
+          console.log('Preview URL (only with generated email): %s', nodemailer.getTestMessageUrl(info));
+
+          // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
+          // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
+      });
+  });
+}
+
 exports.updateUserData = function(usrData)
 {
   userData = usrData;
