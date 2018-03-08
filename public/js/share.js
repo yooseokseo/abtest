@@ -7,13 +7,15 @@ $(document).ready(function() {
 
 
   $('#link-send').click(function(){
-    if (email == undefined)
+    var email = $("#email").val();
+	  
+    if (email == undefined || email == "undefined" || email == "")
     {
       $('.save-popup').html('<img id="check-icon" src="/images/icons/x-mark.png" alt=""> Enter email');
     }
     else
     {
-      var email = $("#email").val();
+      //var email = $("#email").val();
       var link = $("#link").val();
       socket.emit('email', email, link);
 
