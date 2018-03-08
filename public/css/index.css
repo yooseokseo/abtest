@@ -13,6 +13,7 @@ html, body{
 a {
   text-decoration: none;
   color: black;
+
 }
 
 .page-container {
@@ -102,7 +103,7 @@ a {
   align-items:flex-end;
   font-size: 1.5rem;
   font-weight: bold;
-  font-family:  "Garamond", Palatino, serif;
+  font-family:  Helvetica, sans-serif
   font-size: 1.7rem;
 }
 
@@ -136,10 +137,9 @@ a {
   align-items: center;
   justify-content: center;
   margin: 0.5rem 0;
-  background-color: #2b7564c7;
+  background-color: #60b3ef6b;
   border-radius: 7px;
-  color: white; 
-  font-family:  "Garamond", Palatino, serif;
+  font-family:  Arial, Helvetica, sans-serif;
   font-size: 2rem;
 }
 
@@ -169,7 +169,7 @@ a {
 
 
 .nav-container {
-  background-color: #DFDFDF;
+  background-color: ##9ad0e41f;
   position: fixed;
   width: 100%;
   display: grid;
@@ -196,7 +196,7 @@ a {
 }
 
 .nav-divider{
-  background-color: #56928533;
+  background-color: #9ad0e41f;
   border-right: 1px solid #efefef;
 
 }
@@ -236,14 +236,14 @@ a {
 #image{
   grid-area:Image;
   margin-right: 2px;
-  background-color: #2b756475;
+  background-color: #9ad0e475;
   border-radius: 7px;
   color: #080808; 
 }
 #video{
   grid-area:Video;
   margin-left:2px;
-  background-color: #2b756475;
+  background-color: #9ad0e475;
   border-radius: 7px;
   color: #0a0000; 
 
@@ -251,7 +251,7 @@ a {
 #music{
   grid-area:Music;
   margin-right: 2px;
-  background-color: #2b756475;
+  background-color: #9ad0e475;
   border-radius: 7px;
   color: black; 
 
@@ -260,7 +260,7 @@ a {
 #literature{
   grid-area:Literature;
   margin-left:2px;
-  background-color: #2b756475;
+  background-color: #9ad0e475;
   border-radius: 7px;
   color: #040404; 
 
@@ -437,7 +437,7 @@ a {
 
 
 .nav-container {
-  background-color: #DFDFDF;
+  background-color: #9ad0e41f;
   position: fixed;
   width: 100%;
   display: grid;

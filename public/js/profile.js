@@ -1,10 +1,12 @@
+//var socket = io.connect('http://localhost:3000');
 var socket = io.connect('a8-team2-abtest.herokuapp.com/');
+
 //var socket = io.connect('https://a8-cogs120team2.herokuapp.com/');
 
 
 function checkLoginStatus(signedIn)
 {
-  if (!signedIn)
+  if (!signedIn) 
   {
     $(".profile").attr({
       "data-toggle": "modal",
@@ -14,7 +16,7 @@ function checkLoginStatus(signedIn)
   }
   else
   {
-    $(".profile").attr("href", "/profile");
+    $(".profile").attr("href", "/profile");    
   }
 };
 
