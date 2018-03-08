@@ -338,7 +338,7 @@ exports.email = function(email, link)
 {
   console.log("exports.email");
   console.log("Shared "+link+" with "+email);
-  const nodemailer = require('nodemailer');
+  /*const nodemailer = require('nodemailer');
 
   // Generate test SMTP service account from ethereal.email
   // Only needed if you don't have a real mail account for testing
@@ -354,7 +354,7 @@ exports.email = function(email, link)
               pass: account.pass // generated ethereal password
           }
       });*/
-
+/*
       var transporter = nodemailer.createTransport(
       {
         service: 'gmail',
@@ -388,7 +388,7 @@ exports.email = function(email, link)
           // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
           // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
       });
-  });
+  });*/
 }
 
 exports.updateUserData = function(usrData)
