@@ -1,5 +1,8 @@
 'use strict';
 
+//var socket = io.connect('http://localhost:3000');
+var socket = io.connect('a8-team2-abtest.herokuapp.com/');
+
 $(document).ready(function() {
 
   $('#link-send').click(function(){
