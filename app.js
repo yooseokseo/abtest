@@ -86,6 +86,7 @@ app.get('/:categoryTitle/:itemId/info/:externalId/external', external.view);
 app.get('/preference', preference.view);
 app.get('/app/:title/filteredRandom', filteredrRandom.view);
 //app.get('/:categoryTitle/:itemId/info/:externalId/external/:webaddress', external.webview);
+app.post('/email', share.email);
 
 
 
@@ -220,6 +221,11 @@ io.sockets.on('connection', function(socket){
     }
     socket.emit('likeResult', liked);
 
+  });
+  
+  socket.on('email', function(email, link)
+  {
+    share.email(email, link);
   });
 
 
