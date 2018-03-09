@@ -8,7 +8,7 @@ $(document).ready(function() {
 
   $('#link-send').click(function(){
     var email = $("#email").val();
-	  
+
     if (email == undefined || email == "undefined" || email == "")
     {
       $('.save-popup').html('<img id="check-icon" src="/images/icons/x-mark.png" alt=""> Enter email');
@@ -25,14 +25,11 @@ $(document).ready(function() {
     $('.save-popup').fadeIn(500);
     $('.save-popup').fadeOut(2000);
   })
-	
+
   $('#link-copy').click(function(){
     $('.save-popup').html('<img id="check-icon" src="/images/icons/check-500.png" alt=""> Copied Link');
     $('.save-popup').fadeIn(500);
     $('.save-popup').fadeOut(2000);
   })
-  $('#group-chat-send').click(function(){
-		console.log('clicked');
-		ga("send", "event", "shareScreen", "click");
-	});
+  
 });
