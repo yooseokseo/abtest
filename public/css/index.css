@@ -80,7 +80,7 @@ a {
 .content-container{
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 2fr 1fr;
   grid-template-areas: "Title More";
   margin:1rem;
   margin-bottom: 0;
@@ -355,7 +355,7 @@ a {
 .content-container{
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 2fr 1.3fr;
   grid-template-areas: "Title More";
   margin:1rem;
   margin-bottom: 0;
@@ -378,7 +378,6 @@ a {
   font-size: 1.5rem;
   font-weight: bold;
   font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-  font-size: 1.7rem;
 }
 
 .content-More {
