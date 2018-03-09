@@ -1,11 +1,11 @@
 [{
     "id": 0,
     "category": "activities",
-    "itemTitle": "activity 1",
+    "itemTitle": "La Jolla Surf",
     "type": "image",
     "date": "February 6",
-    "caption": "activity 1 caption",
-    "summary": "activity 1 summary",
+    "caption": "La Jolla beaches Are the place to surf",
+    "summary": "With optimal weather and amazing waves, La Jolla is the place to be!",
     "keyword": "Beaches",
     "URL": "/images/activities/1.jpeg",
     "extraInfo": [{
@@ -401,8 +401,290 @@
     "URL": "/images/games/1.jpeg",
     "extraInfo": []
 
+  },
+ {
+    "id": 27,
+    "category": "home",
+    "itemTitle": "Home Interior Decor",
+    "type": "image",
+    "date": "February 6",
+    "caption": "$129 Sayer White Leaning Bookcase, Crate and Barrel",
+    "summary": "Find many ideas for your home decor here at https://www.elledecor.com/design-decorate/interior-designers/g3183/home-decor-ideas/?slide=30",
+    "keyword": "",
+    "URL": "/images/home/bathroom1.jpg",
+    "extraInfo": []
+
+  },
+{
+    "id": 28,
+    "category": "home",
+    "itemTitle": "Bernal Heights Studio Apt.",
+    "type": "image",
+    "date": "February 6",
+    "caption": "450sqft in San Francisco",
+    "summary": "This lovely studio sleeps 2, 1 bath, and has a 3-8min stay. Find more details on how you rent this place at https://www.vrbo.com/413030",
+    "keyword": "",
+    "URL": "/images/home/bed1.jpg",
+    "extraInfo": []
+
+  }, 
+{
+    "id": 29,
+    "category": "home",
+    "itemTitle": "DIY Suitcase Table",
+    "type": "image",
+    "date": "February 6",
+    "caption": "Home made decor you can make yourself!",
+    "summary": "Have your neighbors saying wow when they see your new DIY Suitcase Table! Instructions, along with more DIY home projects are available at http://www.goodhousekeeping.com/home/decorating-ideas/g1711/diy-home-decor/?slide=8",
+    "keyword": "",
+    "URL": "/images/home/suitcase1.jpg",
+    "extraInfo": []
+
+  }, 
+{
+    "id": 30,
+    "category": "home",
+    "itemTitle": "Home DIY Tutorial",
+    "type": "video",
+    "date": "February 6",
+    "caption": "Fun ways to make your house your own!",
+    "summary": "See video on a bigger screen here at https://www.youtube.com/watch?v=rApemHrhswg.",
+    "keyword": "",
+    "URL": "/video/home/homevideo.mp4",
+    "extraInfo": []
+
+  }, 
+
+{
+    "id": 31,
+    "category": "home",
+    "itemTitle": "Home on the Range",
+    "type": "music",
+    "date": "February 6",
+    "caption": "Tom Willet 2010",
+    "summary": "See music video here at https://www.youtube.com/watch?v=Hs2rZG42X9I",
+    "keyword": "",
+    "URL": "/music/homesong1.mp3",
+    "extraInfo": []
+
+  }, 
+{
+    "id": 32,
+    "category": "kid",
+    "itemTitle": "Parenting Quote",
+    "type": "literature",
+    "date": "February 6",
+    "caption": "Great Parenting Quotes",
+    "summary": "These quotes will make you want to become a parent! https://www.parenting.com/parenting-advice/tips-tricks/17-amazing-parenting-quotes-will-make-you-better-parent",
+    "keyword": "",
+    "URL": "/images/kid/kid1.jpg",
+    "extraInfo": []
+
+  }, 
+{
+    "id": 33,
+    "category": "kid",
+    "itemTitle": "DIY Scarecrow Costume",
+    "type": "image",
+    "date": "February 6",
+    "caption": "Scarecrow Costume",
+    "summary": "My little one loved this! I so recommend! https://www.wherethesmileshavebeen.com/diy-scarecrow-costume/",
+    "keyword": "",
+    "URL": "/images/kid/kid2.jpg",
+    "extraInfo": []
+
+  }, 
+{
+    "id": 34,
+    "category": "kid",
+    "itemTitle": "Slumber Party Ideas",
+    "type": "image",
+    "date": "February 6",
+    "caption": "DIY your slumber party",
+    "summary": "Here are some ideas for your next slumber party! https://www.buzzfeed.com/morganshanahan/slumber-party-ideas-for-the-best-sleepover-ever?bffbparents&s=mobile&utm_term=.hhm7E73Mv#.hgRNoNWz9",
+    "keyword": "",
+    "URL": "/images/kid/kid3.jpg",
+    "extraInfo": []
+
+  },
+{
+    "id": 35,
+    "category": "movies",
+    "itemTitle": "Black Panter Art",
+    "type": "image",
+    "date": "February 6",
+    "caption": "Black Panther ",
+    "summary": "Check this movie out now in theaters!",
+    "keyword": "",
+    "URL": "/images/movies/BlackP.png",
+    "extraInfo": []
+
+  },
+{
+    "id": 36,
+    "category": "movies",
+    "itemTitle": "Avengers",
+    "type": "video",
+    "date": "February 6",
+    "caption": "Infinity War",
+    "summary": "April 27,2018 my life will be complete. Check out the trailer here or on full screen at https://www.youtube.com/watch?v=ypAxxTLAFmQ",
+    "keyword": "",
+    "URL": "/video/movies/avengers1.mp4",
+    "extraInfo": []
+
+  },
+{
+    "id": 37,
+    "category": "movies",
+    "itemTitle": "Remember Me",
+    "type": "music",
+    "date": "February 6",
+    "caption": "Coco",
+    "summary": "Love this song!",
+    "keyword": "",
+    "URL": "/music/rememberme.mp3",
+    "extraInfo": []
+
+  },
+{
+    "id": 38,
+    "category": "music",
+    "itemTitle": "Roundtable Rival",
+    "type": "music",
+    "date": "February 6",
+    "caption": "Lindkey Stirling",
+    "summary": "Music video available at https://www.youtube.com/watch?v=jvipPYFebWc",
+    "keyword": "",
+    "URL": "/music/fiddle1.mp3",
+    "extraInfo": []
+
+  },
+{
+    "id": 39,
+    "category": "music",
+    "itemTitle": "Pray For Me",
+    "type": "music",
+    "date": "February 6",
+    "caption": "The Weeknd, Kendrick Lamar",
+    "summary": "Video of music here:https://www.youtube.com/watch?v=K5xERXE7pxI",
+    "keyword": "",
+    "URL": "/music/kendrick1.mp3",
+    "extraInfo": []
+
+  },
+{
+    "id": 40,
+    "category": "music",
+    "itemTitle": "Houses of the Holy",
+    "type": "image",
+    "date": "February 6",
+    "caption": "Led Zeppelin",
+    "summary": "remastered original vinyl $17.99 at https://www.amazon.com/Houses-Holy-Remastered-Original-Vinyl/dp/B00M30VKWM/ref=pd_lpo_sbs_15_t_0/138-5576046-7529514?_encoding=UTF8&psc=1&refRID=HSZKDCBBDHZZPYMK2SJQ",
+    "keyword": "",
+    "URL": "/images/music/led1.jpg",
+    "extraInfo": []
+
+  },
+{
+    "id": 41,
+    "category": "music",
+    "itemTitle": "Music Quote",
+    "type": "literature",
+    "date": "February 6",
+    "caption": "Shakespeare",
+    "summary": "My favorite music quote",
+    "keyword": "",
+    "URL": "/images/music/quote1.jpg",
+    "extraInfo": []
+
+  },
+{
+    "id": 42,
+    "category": "pets",
+    "itemTitle": "Thinmint",
+    "type": "image",
+    "date": "February 6",
+    "caption": "Adoptable Baby Female Shepherd, San Diego",
+    "summary": "Adpot adorable Thinmint at https://www.petfinder.com/dog/girl-scout-pup-thin-mint-41091824/ca/san-diego/california-labradors-retrievers-and-more-ca1874/",
+    "keyword": "",
+    "URL": "/images/pets/thinmintpup.jpg",
+    "extraInfo": []
+
+  },
+{
+    "id": 43,
+    "category": "pets",
+    "itemTitle": "Ollie",
+    "type": "image",
+    "date": "February 6",
+    "caption": "Adoptable Adult Macaw, San Diego",
+    "summary": "Adpot adorable Ollie at https://www.petfinder.com/bird/jupiter-39241866/ca/redlands/olive-branch-parrot-rescue-inc-ca1504/",
+    "keyword": "",
+    "URL": "/images/pets/bird1.jpg",
+    "extraInfo": []
+
+  },
+{
+    "id": 44,
+    "category": "pets",
+    "itemTitle": "Pitbull Falls Asleep to Dad Singing",
+    "type": "video",
+    "date": "February 6",
+    "caption": "Dog Lullaby | The Dodo",
+    "summary": "Super adorable pitbull dog!",
+    "keyword": "",
+    "URL": "/video/pet/petvideo1.mp4",
+    "extraInfo": []
+
+  },
+{
+    "id": 45,
+    "category": "sports",
+    "itemTitle": "Padres",
+    "type": "images",
+    "date": "February 6",
+    "caption": "Opening Day March 29, 2018!",
+    "summary": "San Diego opens up with home slate vs. Brewers on March 29, 2018! See their schedule here at https://www.mlb.com/padres/news/padres-release-2018-schedule/c-253898494",
+    "keyword": "",
+    "URL": "/images/sports/padres.jpg",
+    "extraInfo": []
+  },
+{
+    "id": 46,
+    "category": "toys",
+    "itemTitle": "Giant Pink Bear!",
+    "type": "images",
+    "date": "February 6",
+    "caption": "$31.99 Pink Bear Amazon",
+    "summary": "Make this fluffy bear yours at https://www.amazon.com/MorisMos-Giant-Cute-Teddy-Girlfriend/dp/B0179D6QNK/ref=sr_1_10?s=toys-and-games&ie=UTF8&qid=1520564387&sr=1-10&keywords=giant+teddy+bear",
+    "keyword": "",
+    "URL": "/images/toys/bear1.jpg",
+    "extraInfo": []
+  },
+{
+    "id": 47,
+    "category": "toys",
+    "itemTitle": "Nerf Tactical Vest Set",
+    "type": "images",
+    "date": "February 6",
+    "caption": "$20.99 Nerf, Amazon",
+    "summary": "Bought this for my kids and they loved it! https://www.amazon.com/Tactical-Vest-Nerf-N-Strike-Elite/dp/B01LZA814S/ref=sr_1_2_sspa?s=toys-and-games&ie=UTF8&qid=1520564477&sr=1-2-spons&keywords=nerf+gun&psc=1 ",
+    "keyword": "",
+    "URL": "/images/toys/nerf.jpg",
+    "extraInfo": []
+  },
+{
+    "id": 48,
+    "category": "toys",
+    "itemTitle": "Lite-Brite!",
+    "type": "images",
+    "date": "February 6",
+    "caption": "$14.97 Lite-Brite, Amazon",
+    "summary": "Lite-Brite Magic Screen Toy - Retro Style available on Amazon! So excited! https://www.amazon.com/Lite-Brite-Magic-Screen-Toy-Retro/dp/B01N6B8SX0/ref=sr_1_2?s=toys-and-games&ie=UTF8&qid=1520564528&sr=1-2&keywords=light+brite ",
+    "keyword": "",
+    "URL": "/images/toys/toy2.jpg",
+    "extraInfo": []
   }
 
-
-
 ]
+
