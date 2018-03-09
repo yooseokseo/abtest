@@ -748,14 +748,14 @@ a {
   #share-btn2{
     grid-area: btn1;
     margin: 0 auto;
-    background-color: #2b7564c7;
+    background-color: #5CA7BA;
 
   }
 
   #bookmark-btn2{
     grid-area: btn2;
     margin: 0 auto;
-    background-color: #2b7564c7;
+    background-color: #5CA7BA;
 
   }
 
@@ -766,15 +766,24 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #2b7564c7;
+    background-color: #5CA7BA;
 
   }
 
   #info-btn2{
     grid-area: btn4;
     margin: 0 auto;
-    background-color: #2b7564c7;
+    background-color: #5CA7BA;
 
+  }
+  #signUpBtn{
+    background-color: #5CA7BA;
+  }
+  #login-btn{
+    background-color: #5CA7BA;
+  }
+  #flogin-btn{
+    background-color: #5CA7BA;
   }
 
   .new-options2{
