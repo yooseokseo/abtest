@@ -1,6 +1,6 @@
 'use strict';
 //var socket = io.connect('http://localhost:3000');
-var socket = io.connect('a8-team2-abtest.herokuapp.com/');
+var socket = io.connect('https://a9-team2.herokuapp.com/');
 
 
 $(document).ready(function() {
@@ -31,5 +31,5 @@ $(document).ready(function() {
     $('.save-popup').fadeIn(500);
     $('.save-popup').fadeOut(2000);
   })
-  
+
 });

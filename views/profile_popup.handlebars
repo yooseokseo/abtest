@@ -84,7 +84,7 @@
                                 </div>
                             </div>
 
-                      
+
 
                         </form>
                     </div>
@@ -138,12 +138,12 @@
 <script>
 //var socket = io.connect('http://localhost:3000');
 //var socket = io.connect('https://a8-cogs120team2.herokuapp.com/');
-var socket = io.connect('a8-team2-abtest.herokuapp.com/');
+var socket = io.connect('https://a9-team2.herokuapp.com/');
 
     //---------
 
     //for login
-    $('#login-btn').click(function(e) 
+    $('#login-btn').click(function(e)
     {
         e.preventDefault();
 
@@ -152,17 +152,17 @@ var socket = io.connect('a8-team2-abtest.herokuapp.com/');
         var usrName = $('fb_gg_username').val();
         var usrImg = $('fb_gg_image').val();
         var actualName = $('fb_gg_name').val();
-        socket.emit('login', email, pWord, usrName, usrImg, actualName); 
+        socket.emit('login', email, pWord, usrName, usrImg, actualName);
     });
 
-    socket.on('failedLogin', function() 
+    socket.on('failedLogin', function()
     {
         $('.login-fail-popup').fadeIn(500);
         $('.login-fail-popup').fadeOut(2500);
     });
 
     //show login success message and go to homepage
-    socket.on('successfulLogin', function() 
+    socket.on('successfulLogin', function()
     {
         $('.login-popup').fadeIn(500, function()
         {
