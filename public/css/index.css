@@ -142,6 +142,13 @@ a {
   font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   font-size: 2rem;
 }
+#travel{
+  grid-area:Literature;
+  margin-left:2px;
+  background-color: #96D6E5;
+  border-radius: 7px;
+  color: #040404;
+}
 
 .recently-button{
   display: grid;
@@ -263,7 +270,7 @@ a {
   background-color:#96D6E5;
   border-radius: 7px;
   color: #040404;
-
+}
 .content-media img{
   width: 100%;
 }
@@ -405,7 +412,7 @@ a {
   align-items: center;
   justify-content: center;
   margin: 0.5rem 0;
-  background-color: #2b7564c7;
+  background-color: #5CA7BA;
   border-radius: 7px;
   color: white;
   font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
@@ -528,9 +535,11 @@ a {
 #literature{
   grid-area:Literature;
   margin-left:2px;
-  background-color: ##96D6E5;
+  background-color: #96D6E5;
   border-radius: 7px;
   color: #040404;
+}
+
 
 .content-media img{
   width: 100%;
