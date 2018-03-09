@@ -4511,7 +4511,7 @@ h4 {
   font-size: 2.28rem;
   line-height: 110%;
   margin: 1.14rem 0 0.912rem 0;
-  font-family:  "Garamond", Palatino, serif;
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 
 }
 
@@ -5216,8 +5216,7 @@ small {
   -webkit-transition: .2s ease-out;
   transition: .2s ease-out;
   cursor: pointer;
-  font-family:  "Garamond", Palatino, serif;
-
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
 .btn:hover, .btn-large:hover {
