@@ -8,6 +8,8 @@
   grid-template-areas: "Home Brower Profile Search";
   bottom: 0;
   text-align: center;
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+
 }
 
 .nav-images{
@@ -48,6 +50,8 @@
   grid-column: 2;
   margin-top: 20px;
   font-size: medium;
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  
  }
  .edit-profile{
    grid-column: 2;
@@ -119,6 +123,7 @@
   margin: 0;
   text-align: center;
   font-size: 1.5rem;
+
 }
 
 #login-tab {
@@ -157,10 +162,13 @@
   position: absolute;
   right: 2rem;
   bottom: 15.5rem;
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+
 }
 
 #login-btn{
   width: 100%;
+
 }
 
 #flogin-btn{
@@ -210,6 +218,8 @@
   margin: auto;
     height: 2rem;
     padding-top: 1rem;
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+
 }
 
 #email::placeholder{
@@ -219,7 +229,9 @@
 #name{
   width: 90%;
   margin: auto;
-    height: 2rem;
+  height: 2rem;
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+
 }
 #name::placeholder{
   font-size: 1.3rem;
@@ -229,6 +241,8 @@
   width: 90%;
   margin: auto;
     height: 2rem;
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  
 }
 #username::placeholder{
   font-size: 1.3rem;
@@ -238,6 +252,8 @@
   width: 90%;
   margin: auto;
     height: 2rem;
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+
 }
 #password::placeholder{
   font-size: 1.3rem;
@@ -321,6 +337,9 @@ audio#audio
   grid-template-rows: 1fr;
   grid-template-areas:
     "bookmark uploaded shared";
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: medium;
+
 }
 
 #profile-bookmark{
@@ -358,7 +377,8 @@ audio#audio
   position: absolute;
   left: 1rem;
   top: -2.5rem;
-
+  border-radius: 7px;
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 #profile-logout{
   border: 1px solid gray;
@@ -366,7 +386,8 @@ audio#audio
   position: absolute;
   right: 1rem;
   top: -2.5rem;
-
+  border-radius: 7px;
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
 .tabs_container{

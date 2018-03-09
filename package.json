@@ -16,6 +16,7 @@
     "express3-handlebars": "*",
     "mongodb": "*",
     "mongoose": "*",
+    "nodemailer": "^4.6.2",
     "socket.io": "^2.0.4"
   },
   "engines": {
