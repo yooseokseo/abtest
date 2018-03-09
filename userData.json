@@ -35,5 +35,6 @@
   "bookmarkedList": [],
   "ipIndex" : -1,
   "ip" : null,
-  "hostname" : null
+  "hostname" : null,
+  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor"
 }

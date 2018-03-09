@@ -228,6 +228,12 @@ io.sockets.on('connection', function(socket){
     share.email(email, link);
   });
 
+  socket.on('changeDescription', function(description)
+  {
+    console.log("changeDescription: "+description);
+    profile.changeDescription(description);
+    updateUserData( profile.getUserData() );
+  });
 
   //sends loginStatus directly froma app.js to avoid error from asynchronicity
 

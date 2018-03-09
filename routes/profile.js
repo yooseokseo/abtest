@@ -165,6 +165,12 @@ exports.updateUserData = function(usrData)
   userData = usrData;
 };
 
+exports.changeDescription = function(description)
+{
+  userData["description"] = description;
+  console.log(userData);
+}
+
 function addMediaHTML()
 {
   console.log("addMediaHTML in routes/profile");

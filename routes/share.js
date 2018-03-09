@@ -365,7 +365,7 @@ exports.email = function(email, link)
       });
 
       //var host = "http://localhost:3000/";
-      var host = "https://a8-team2-abtest.herokuapp.com/" //switch when deploying
+      var host = "https://a9-team2.herokuapp.com/" //switch when deploying
 
       // setup email data with unicode symbols
       let mailOptions = {

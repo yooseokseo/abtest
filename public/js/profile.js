@@ -21,7 +21,10 @@ function checkLoginStatus(signedIn)
 };
 
 
-
+function changeDescription(description)
+{
+  socket.emit("changeDescription", description);
+}
 
 function logout()
 {
