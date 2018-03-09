@@ -75,7 +75,7 @@ a {
 .categories-container {
   margin-bottom: 0.5rem;
   width: 100%;
-   
+
 }
 .content-container{
   display: grid;
@@ -136,9 +136,9 @@ a {
   align-items: center;
   justify-content: center;
   margin: 0.5rem 0;
-  background-color: #2b7564c7;
+  background-color: #5CA7BA;
   border-radius: 7px;
-  color: white; 
+  color: white;
   font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   font-size: 2rem;
 }
@@ -178,8 +178,8 @@ a {
   grid-template-areas: "Home Brower Profile Search";
   bottom: 0;
   text-align: center;
-  
-  
+
+
 }
 
 .nav-images{
@@ -192,11 +192,11 @@ a {
 
 .nav-title {
   font-size: 1rem;
- 
+
 }
 
 .nav-divider{
-  background-color: #56928533;
+  background-color: #B2CDE3;
   border-right: 1px solid #efefef;
 
 }
@@ -236,33 +236,33 @@ a {
 #image{
   grid-area:Image;
   margin-right: 2px;
-  background-color: #2b756475;
+  background-color: #96D6E5;
   border-radius: 7px;
-  color: #080808; 
+  color: #080808;
 }
 #video{
   grid-area:Video;
   margin-left:2px;
-  background-color: #2b756475;
+  background-color: #96D6E5;
   border-radius: 7px;
-  color: #0a0000; 
+  color: #0a0000;
 
 }
 #music{
   grid-area:Music;
   margin-right: 2px;
-  background-color: #2b756475;
+  background-color: #96D6E5;
   border-radius: 7px;
-  color: black; 
+  color: black;
 
 
 }
 #literature{
   grid-area:Literature;
   margin-left:2px;
-  background-color: #2b756475;
+  background-color:#96D6E5;
   border-radius: 7px;
-  color: #040404; 
+  color: #040404;
 
 .content-media img{
   width: 100%;
@@ -343,7 +343,7 @@ a {
 .categories-container {
   margin-bottom: 0.5rem;
   width: 100%;
-   
+
 }
 .content-container{
   display: grid;
@@ -407,7 +407,7 @@ a {
   margin: 0.5rem 0;
   background-color: #2b7564c7;
   border-radius: 7px;
-  color: white; 
+  color: white;
   font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   font-size: 2rem;
 }
@@ -447,7 +447,7 @@ a {
   grid-template-areas: "Home Brower Profile Search";
   bottom: 0;
   text-align: center;
-  
+
 }
 
 .nav-images{
@@ -460,12 +460,12 @@ a {
 
 .nav-title {
   font-size: 1rem;
- 
+
 }
 
 .nav-divider{
   border-right: 1px solid #efefef;
-  
+
 
 }
 
@@ -504,41 +504,34 @@ a {
 #image{
   grid-area:Image;
   margin-right: 2px;
-  background-color: #2b756475;
+  background-color: #96D6E5;
   border-radius: 7px;
-  color: #080808; 
+  color: #080808;
 }
 #video{
   grid-area:Video;
   margin-left:2px;
-  background-color: #2b756475;
+  background-color:#96D6E5;
   border-radius: 7px;
-  color: #0a0000; 
+  color: #0a0000;
 
 }
 #music{
   grid-area:Music;
   margin-right: 2px;
-  background-color: #2b756475;
+  background-color: #96D6E5;
   border-radius: 7px;
-  color: black; 
+  color: black;
 
 
 }
 #literature{
   grid-area:Literature;
   margin-left:2px;
-  background-color: #2b756475;
+  background-color: ##96D6E5;
   border-radius: 7px;
-  color: #040404; 
+  color: #040404;
 
 .content-media img{
   width: 100%;
 }
-
-
-
-
-
-
-

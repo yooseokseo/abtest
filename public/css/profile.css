@@ -51,7 +51,7 @@
   margin-top: 20px;
   font-size: medium;
   font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-  
+
  }
  .edit-profile{
    grid-column: 2;
@@ -242,7 +242,7 @@
   margin: auto;
     height: 2rem;
   font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-  
+
 }
 #username::placeholder{
   font-size: 1.3rem;
